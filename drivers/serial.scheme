@@ -1,0 +1,30 @@
+attrs :
+{
+    idVendor = 0x1D6B;
+    idProduct = 0x104;
+};
+strings = (
+        {
+                lang = 0x409;
+                manufacturer = "SafePI Foundation";
+                product = "SafePI";
+        }
+);
+functions :
+{
+    ecm_usb0 :
+    {
+        instance = "usb0";
+        type = "acm";
+    };
+};
+configs = (
+    {
+        id = 1;
+        name = "c";
+        functions = (
+            {
+                name = "acm.usb0";
+                function = "acm_usb0";
+            } );
+    } );
