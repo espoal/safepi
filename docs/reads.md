@@ -4,3 +4,5 @@ https://developer.ridgerun.com/wiki/index.php/How_to_use_USB_CDC_ACM_and_MS_comp
 
 https://www.digi.com/resources/documentation/digidocs/90001546/reference/bsp/r_usb_device.htm
 
+http://irq5.io/2016/12/22/raspberry-pi-zero-as-multiple-usb-gadgets/
+
