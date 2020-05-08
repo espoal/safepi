@@ -1,3 +1,7 @@
 #webstorm
 
 .idea/
+
+#sphinx
+
+docs/build
